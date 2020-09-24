@@ -1,0 +1,21 @@
+.my-jumbo {
+  padding: 5rem;
+  min-height: 80vh;
+}
+
+.jumbo-content {
+  width: 60%;
+}
+
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 767px) {
+  .my-jumbo {
+    padding: 2rem;
+    min-height: 70vh;
+    text-align: center;
+  }
+
+  .jumbo-content {
+    width: 100%;
+  }
+}
