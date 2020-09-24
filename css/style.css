@@ -37,6 +37,27 @@
   font-size: 13px;
 }
 
+.font-35 {
+  font-size: 35px;
+}
+
+/* index here */
+/* service section */
+.my-jumbo {
+  padding: 5rem;
+  min-height: 85vh;
+  background: linear-gradient(to bottom right, #4b4b4bab, #610000c9), url(../images/back6.jpg);
+  background-size: cover;
+}
+
+.jumbo-content {
+  width: 60%;
+}
+
+.jumbo-para-1 {
+  box-shadow: 4px 5px 0px black;
+}
+
 .topic-h2 {
   font-size: 22px;
   padding: 5px 0;
@@ -48,18 +69,25 @@
   color: #ec5242;
 }
 
-.my-jumbo {
-  padding: 5rem;
-  min-height: 85vh;
+.services {
   background: linear-gradient(to bottom right, #4b4b4bab, #610000c9), url(../images/back6.jpg);
+
 }
 
-.jumbo-content {
-  width: 60%;
+.service-section {
+  padding: 20px;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 
-.jumbo-para-1 {
-  box-shadow: 4px 5px 0px black;
+.service-card {
+  box-shadow: 0px 0px 5px 5px #c1c1c1;
+}
+
+.ser-h4 {
+  padding: 10px 22px;
+  font-size: 20px;
+  margin: 0 auto;
 }
 
 /* // Medium devices (tablets, 768px and down) */
