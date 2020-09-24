@@ -37,6 +37,14 @@
   font-size: 13px;
 }
 
+.font-20 {
+  font-size: 20px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
 .font-35 {
   font-size: 35px;
 }
@@ -86,9 +94,16 @@
 
 .ser-h4 {
   padding: 10px 22px;
-  font-size: 20px;
   margin: 0 auto;
 }
+
+/* speaker section */
+.sp-img-div {
+  height: 120px;
+  width: 120px;
+}
+
+.sp-title {}
 
 /* // Medium devices (tablets, 768px and down) */
 @media (max-width: 767px) {
