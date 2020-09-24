@@ -1,254 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <script
-      src="https://kit.fontawesome.com/c7d73dbfbb.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>HTML and CSS Capstone</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="https://kit.fontawesome.com/c7d73dbfbb.js" crossorigin="anonymous"></script>
 
-  <body>
-    <header class="nav-wraper">
-      <nav class="top-nav d-none d-md-block">
-        <div
-          class="nav-top justify-content-end navbar navbar-expand-sm bg-dark navbar-dark p-0"
-        >
-          <ul class="navbar-nav pr-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-facebook-f text-light"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-twitter text-light"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">English</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">My Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Log Out</a>
-            </li>
-          </ul>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>International Tech Day</title>
+</head>
+
+<body>
+  <header class="nav-wraper">
+    <nav class="top-nav d-none d-md-block">
+      <div class="nav-top justify-content-end navbar navbar-expand-sm bg-dark navbar-dark p-0">
+        <ul class="navbar-nav pr-5 font-13">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-facebook-f gray-clr"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-twitter gray-clr"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-github-square gray-clr"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link gray-clr" href="#">English</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="main-nav sticky-top navbar navbar-expand-md justify-content-md-around bg-light navbar-light">
+      <!-- Brand/logo -->
+      <a class="navbar-brand pl-5 font-weight-bolder red-clr" href="#">
+        My-Logo
+        <!-- <img src="bird.jpg" alt="logo" style="width: 40px" /> -->
+      </a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="row justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav pr-5">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedule</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="jumbotron jumbotron-fluid my-jumbo gray-clr">
+    <div class="jumbo-content">
+      <h1 class="display-4 font-weight-bolder">International Tech Day: 26 Aug 2021</h1>
+      <p class="lead border border-secondary text-light lt-black-bg mt-4 p-2 jumbo-para-1">
+        The day we recognize the way technology changes the world and looks to the future of technology. Join us as we
+        talk tech
+        in agriculture, healthcare, fitness, entertainment, food service, transport and security.
+      </p>
+      <p>
+        Johannesburg Community Hall: 27 Park Street
+
+      </p>
+    </div>
+  </div>
+  <main class="main-section container-fluid text-center">
+    <div class="services">
+      <h2 class="topic-h2 service-topic">Main Program</h2>
+      <div class="row">
+        <div class="service-card row flex-md-column col-12 col-md-3">
+          <h4 class="ser-h4">my_topic</h4>
+          <p class="ser-para">serv_para</p>
         </div>
-      </nav>
-      <nav
-        class="main-nav navbar navbar-expand-md justify-content-md-around bg-light navbar-light"
-      >
-        <!-- Brand/logo -->
-        <a class="navbar-brand pl-5" href="#">
-          <img src="bird.jpg" alt="logo" style="width: 40px" />
-        </a>
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="row justify-content-end collapse navbar-collapse"
-          id="collapsibleNavbar"
-        >
-          <!-- Links -->
-          <ul class="navbar-nav pr-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 3</a>
-            </li>
-          </ul>
+        <div class="service-card row flex-md-column col-12 col-md-3">
+          <h4 class="ser-h4">my_topic</h4>
+          <p class="ser-para">serv_para</p>
         </div>
-      </nav>
-    </header>
-    <div class="jumbotron jumbotron-fluid my-jumbo">
-      <div class="jumbo-content">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-        <p>
-          It uses utility classes for typography and spacing to space content
-          out within the larger container.
-        </p>
+        <div class="service-card row flex-md-column col-12 col-md-3">
+          <h4 class="ser-h4">my_topic</h4>
+          <p class="ser-para">serv_para</p>
+        </div>
+        <div class="service-card row flex-md-column col-12 col-md-3">
+          <h4 class="ser-h4">my_topic</h4>
+          <p class="ser-para">serv_para</p>
+        </div>
+        <button type="button" class="btn d-md-none">button</button>
+      </div>
+      <p class="service-para">This is a service para</p>
+    </div>
+    <div class="speakers">
+      <h2 class="topic-h2 speakers-topic">Speakers</h2>
+      <div class="row sp-row">
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https://d.newsweek.com/en/full/1641325/dr-fauci.webp?" alt="John Doe" class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John Doe</h4>
+            <h5 class="sp-title">This speaker is abc</h5>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https" alt="..." class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John</h4>
+            <h5 class="sp-title">This</h5>
+            <p>Lorem</p>
+          </div>
+        </div>
+      </div>
+      <div class="row sp-row">
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https" alt="..." class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John</h4>
+            <h5 class="sp-title">This</h5>
+            <p>Lorem</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https" alt="..." class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John</h4>
+            <h5 class="sp-title">This</h5>
+            <p>Lorem</p>
+          </div>
+        </div>
+      </div>
+      <div class="row sp-row">
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https" alt="..." class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John</h4>
+            <h5 class="sp-title">This</h5>
+            <p>Lorem</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 media border p-3">
+          <div class="col-4 sp-img-div">
+            <img src="https" alt="..." class="mr-3 mt-3 w-100" />
+          </div>
+          <div class="col-8 media-body">
+            <h4>John</h4>
+            <h5 class="sp-title">This</h5>
+            <p>Lorem</p>
+          </div>
+        </div>
       </div>
     </div>
-    <main class="main-section container-fluid text-center">
-      <div class="services">
-        <h2 class="topic-h2 service-topic">Main Program</h2>
-        <div class="row">
-          <div class="service-card row flex-md-column col-12 col-md-3">
-            <h4 class="ser-h4">my_topic</h4>
-            <p class="ser-para">serv_para</p>
-          </div>
-          <div class="service-card row flex-md-column col-12 col-md-3">
-            <h4 class="ser-h4">my_topic</h4>
-            <p class="ser-para">serv_para</p>
-          </div>
-          <div class="service-card row flex-md-column col-12 col-md-3">
-            <h4 class="ser-h4">my_topic</h4>
-            <p class="ser-para">serv_para</p>
-          </div>
-          <div class="service-card row flex-md-column col-12 col-md-3">
-            <h4 class="ser-h4">my_topic</h4>
-            <p class="ser-para">serv_para</p>
-          </div>
-          <button type="button" class="btn d-md-none">button</button>
+    <div class="partners">
+      <h2 class="topic-h2 partner-topic">Main Program</h2>
+      <div class="row justify-content-center">
+        <div class="pt-div">
+          <img src="link" alt="..." class="pt-img" />image
         </div>
-        <p class="service-para">This is a service para</p>
-      </div>
-      <div class="speakers">
-        <h2 class="topic-h2 speakers-topic">Speakers</h2>
-        <div class="row sp-row">
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img
-                src="https://d.newsweek.com/en/full/1641325/dr-fauci.webp?"
-                alt="John Doe"
-                class="mr-3 mt-3 w-100"
-              />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John Doe</h4>
-              <h5 class="sp-title">This speaker is abc</h5>
-              <p>Lorem ipsum</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img src="https" alt="..." class="mr-3 mt-3 w-100" />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John</h4>
-              <h5 class="sp-title">This</h5>
-              <p>Lorem</p>
-            </div>
-          </div>
+        <div class="pt-div">
+          <img src="link" alt="..." class="pt-img" />image
         </div>
-        <div class="row sp-row">
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img src="https" alt="..." class="mr-3 mt-3 w-100" />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John</h4>
-              <h5 class="sp-title">This</h5>
-              <p>Lorem</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img src="https" alt="..." class="mr-3 mt-3 w-100" />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John</h4>
-              <h5 class="sp-title">This</h5>
-              <p>Lorem</p>
-            </div>
-          </div>
+        <div class="pt-div">
+          <img src="link" alt="..." class="pt-img" />image
         </div>
-        <div class="row sp-row">
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img src="https" alt="..." class="mr-3 mt-3 w-100" />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John</h4>
-              <h5 class="sp-title">This</h5>
-              <p>Lorem</p>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 media border p-3">
-            <div class="col-4 sp-img-div">
-              <img src="https" alt="..." class="mr-3 mt-3 w-100" />
-            </div>
-            <div class="col-8 media-body">
-              <h4>John</h4>
-              <h5 class="sp-title">This</h5>
-              <p>Lorem</p>
-            </div>
-          </div>
+        <div class="pt-div">
+          <img src="link" alt="..." class="pt-img" />image
+        </div>
+        <div class="pt-div">
+          <img src="link" alt="..." class="pt-img" />image
         </div>
       </div>
-      <div class="partners">
-        <h2 class="topic-h2 partner-topic">Main Program</h2>
-        <div class="row justify-content-center">
-          <div class="pt-div">
-            <img src="link" alt="..." class="pt-img" />image
-          </div>
-          <div class="pt-div">
-            <img src="link" alt="..." class="pt-img" />image
-          </div>
-          <div class="pt-div">
-            <img src="link" alt="..." class="pt-img" />image
-          </div>
-          <div class="pt-div">
-            <img src="link" alt="..." class="pt-img" />image
-          </div>
-          <div class="pt-div">
-            <img src="link" alt="..." class="pt-img" />image
-          </div>
-        </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="media border p-3">
+      <div class="col-4 sp-img-div">
+        <img src="https://d.newsweek.com/en/full/1641325/dr-fauci.webp?" alt="John Doe" class="mr-3 mt-3 w-100" />
       </div>
-    </main>
-    <footer class="footer">
-      <div class="media border p-3">
-        <div class="col-4 sp-img-div">
-          <img
-            src="https://d.newsweek.com/en/full/1641325/dr-fauci.webp?"
-            alt="John Doe"
-            class="mr-3 mt-3 w-100"
-          />
-        </div>
-        <div class="col-8 media-body">
-          <h4>John Doe</h4>
-          <p>Lorem ipsum</p>
-        </div>
+      <div class="col-8 media-body">
+        <h4>John Doe</h4>
+        <p>Lorem ipsum</p>
       </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

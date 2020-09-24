@@ -1,10 +1,65 @@
+/* colors here */
+.gray-clr {
+  color: #d3d3d3;
+}
+
+.gray-bg {
+  background: #d3d3d3;
+}
+
+.red-clr {
+  color: #ec5242;
+}
+
+.red-bg {
+  background: #ec5242;
+}
+
+.black-clr {
+  color: #272131;
+}
+
+.black-bg {
+  background: #272131;
+}
+
+.lt-black-clr {
+  color: #1234565c;
+}
+
+.lt-black-bg {
+  background: #1234565c;
+}
+
+/* fonts here */
+
+.font-13 {
+  font-size: 13px;
+}
+
+.topic-h2 {
+  font-size: 22px;
+  padding: 5px 0;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  margin: 0 auto;
+  box-shadow: 0px 0px 7px 1px #c1c1c1;
+  background: #d3d3d3;
+  color: #ec5242;
+}
+
 .my-jumbo {
   padding: 5rem;
-  min-height: 80vh;
+  min-height: 85vh;
+  background: linear-gradient(to bottom right, #4b4b4bab, #610000c9), url(../images/back6.jpg);
 }
 
 .jumbo-content {
   width: 60%;
+}
+
+.jumbo-para-1 {
+  box-shadow: 4px 5px 0px black;
 }
 
 /* // Medium devices (tablets, 768px and down) */
