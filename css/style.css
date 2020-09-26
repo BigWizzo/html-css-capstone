@@ -140,8 +140,8 @@
 .sp-img {
   border-radius: 7px;
 }
-.sp-title {
-}
+
+.sp-title {}
 
 .media {
   border-bottom: 1px solid #d3d3d3;
@@ -161,6 +161,18 @@
   height: 150px;
 }
 
+/* About page begins here */
+.in-body {
+  width: 70%;
+}
+
+.past-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* // Medium devices (tablets, 768px and down) */
 @media (max-width: 767px) {
   .my-jumbo {
@@ -173,15 +185,7 @@
     width: 100%;
   }
 
-  .speakers {
-    width: 100%;
-  }
-
-  .services {
-    width: 100%;
-  }
-
-  .partners {
+  .section-div {
     width: 100%;
   }
 
@@ -192,5 +196,11 @@
 
   .pt-div {
     font-size: 16px;
+  }
+
+  /* about page starts here */
+  .in-body {
+    width: 90%;
+
   }
 }
