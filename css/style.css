@@ -84,6 +84,11 @@
   background-size: cover;
 }
 
+.jumbo-haf {
+  min-height: 40vh;
+
+}
+
 .jumbo-content {
   width: 60%;
 }
