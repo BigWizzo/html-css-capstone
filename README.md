@@ -7,19 +7,19 @@
 > This project Project is based on an online website for a conference.
 > I built a website for the Space Mission Launch.
 
-# The Project has the following pages
+## The Project has the following pages
 
     - the Home page, with a menu link to the about page, tickets, and the schedule page
     - the about page
     - the tickets page
     - the schedule page
 
-# Responsive Design with emphasis on
+## Responsive Design with emphasis on
 
     - mobile: up to 768px
     - desktop: from 768px
 
-# Built With
+## Built With
 
     - HTML
     - CSS
