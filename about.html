@@ -46,22 +46,25 @@
             </button>
             <div class="row justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                 <!-- Links -->
-                <ul class="navbar-nav pr-5">
+                <ul class="navbar-nav pr-5 font-weight-bold">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tickets</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link" href="./tickets.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./schedule.html">Schedule</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div class="jumbotron jumbotron-fluid my-jumbo gray-clr text-center">
+    <div class="jumbotron jumbotron-fluid mb-0 my-jumbo gray-clr text-center">
         <div class="jumbo-content mx-auto">
             <h1 class="display-4 font-weight-bolder red-clr">About Us</h1>
             <p class="lead text-light lt-black-bg mt-4 p-2 jumbo-para-1">
@@ -75,6 +78,13 @@
         </div>
     </div>
     <main class="main-section container-fluid text-center">
+        <div aria-label="breadcrumb">
+            <ol class="breadcrumb p-2 m-0 rounded-0 font-12 lt-gray-bg justify-content-end">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </div>
         <div class="about-wrap lt-gray-bg container-fluid">
             <div class="about section-div bg-light bd-section py-3 mx-auto w-90">
                 <h2 class="topic-h2">Creative Commons Global Summit</h2>
@@ -125,10 +135,12 @@
                 <img src="./images/ft-ogo.png" alt="John Doe" class="mr-3 mt-3 ft-img img-fluid" />
             </div>
             <div class="col-8 media-body">
-                <span>@2020 designed by link
-                    <a href="http://github.com/bigwizzo">willnyamunokora[BigWizzo]</a></span>
-                <h4 class="font-20">Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <span class="font-14">@2020 designed by link
+                    <a href="http://github.com/bigwizzo">[BigWizzo]</a></span>
+                <h4 class="font-18">Super Space Trone Launch: 26 Aug 2021</h4>
+                <p>biggest space launch in human history. launching the Super Trone spacecraft aboard the Centurion
+                    rocket from
+                    Olivin Flight Facility in Johannesburg.</p>
             </div>
         </div>
     </footer>

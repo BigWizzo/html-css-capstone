@@ -46,21 +46,31 @@
             </button>
             <div class="row justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                 <!-- Links -->
-                <ul class="navbar-nav pr-5">
+                <ul class="navbar-nav pr-5 font-weight-bold">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tickets</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link" href="./tickets.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./schedule.html">Schedule</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="main-section container-fluid text-center">
+        <div aria-label="breadcrumb">
+            <ol class="breadcrumb p-2 m-0 rounded-0 font-12 lt-gray-bg justify-content-end">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </div>
         <div class="schedule-wrap lt-gray-bg container-fluid">
             <div class="p-3"></div>
             <div class="schedule section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid">
@@ -162,14 +172,17 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="media border p-3">
-            <div class="col-4 sp-img-div">
-                <img src="https://d.newsweek.com/en/full/1641325/dr-fauci.webp?" alt="John Doe"
-                    class="mr-3 mt-3 w-100" />
+        <div class="media p-3 row justify-content-center align-items-center">
+            <div class="col-4 ft-img-div">
+                <img src="./images/ft-ogo.png" alt="John Doe" class="mr-3 mt-3 ft-img img-fluid" />
             </div>
             <div class="col-8 media-body">
-                <h4>John Doe</h4>
-                <p>Lorem ipsum</p>
+                <span class="font-14">@2020 designed by link
+                    <a href="http://github.com/bigwizzo">[BigWizzo]</a></span>
+                <h4 class="font-18">Super Space Trone Launch: 26 Aug 2021</h4>
+                <p>biggest space launch in human history. launching the Super Trone spacecraft aboard the Centurion
+                    rocket from
+                    Olivin Flight Facility in Johannesburg.</p>
             </div>
         </div>
     </footer>
