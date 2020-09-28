@@ -1,327 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <script
-      src="https://kit.fontawesome.com/c7d73dbfbb.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://kit.fontawesome.com/c7d73dbfbb.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>HTML and CSS Capstone</title>
-  </head>
+</head>
 
-  <body>
-    <header class="nav-wraper">
-      <nav class="top-nav d-none d-md-block">
-        <div
-          class="nav-top justify-content-end navbar navbar-expand-sm bg-dark navbar-dark p-0"
-        >
-          <ul class="navbar-nav pr-5 font-13">
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-facebook-f gray-clr"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-twitter gray-clr"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fab fa-github-square gray-clr"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link gray-clr" href="#">English</a>
-            </li>
-          </ul>
+<body>
+    <nav class="top-nav d-none d-md-block">
+        <div class="nav-top justify-content-end navbar navbar-expand-sm bg-dark navbar-dark p-0">
+            <ul class="navbar-nav pr-5 font-13">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-facebook-f gray-clr"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-twitter gray-clr"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-github-square gray-clr"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link gray-clr" href="#">English</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <nav
-        class="main-nav sticky-top navbar navbar-expand-md justify-content-md-around bg-light navbar-light"
-      >
+    </nav>
+    <nav class="main-nav sticky-top navbar navbar-expand-md justify-content-md-around bg-light navbar-light">
         <!-- Brand/logo -->
         <a class="navbar-brand pl-5 font-weight-bolder red-clr logo-a" href="#">
-          <!-- My-Logo -->
-          <img src="./images/logo-nav.png" alt="logo" class="logo-nav h-100" />
+            <!-- My-Logo -->
+            <img src="./images/logo-nav.png" alt="logo" class="logo-nav h-100" />
         </a>
         <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="row justify-content-end collapse navbar-collapse"
-          id="collapsibleNavbar"
-        >
-          <!-- Links -->
-          <ul class="navbar-nav pr-5 font-weight-bold">
-            <li class="nav-item">
-              <a class="nav-link" href="./">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./tickets.html">Tickets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./schedule.html">Schedule</a>
-            </li>
-          </ul>
+        <div class="row justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+            <!-- Links -->
+            <ul class="navbar-nav pr-5 font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tickets.html">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./schedule.html">Schedule</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-    </header>
+    </nav>
     <main class="main-section container-fluid text-center">
-      <div aria-label="breadcrumb">
-        <ol
-          class="breadcrumb p-2 m-0 rounded-0 font-12 lt-gray-bg justify-content-end"
-        >
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Schedule</li>
-        </ol>
-      </div>
-      <div class="schedule-wrap lt-gray-bg container-fluid">
-        <div class="p-3"></div>
-        <div
-          class="schedule section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid"
-        >
-          <h2 class="topic-h2">Schedule</h2>
-          <div class="btn-wrap">
-            <div class="row btn-div py-5">
-              <button
-                type="button"
-                class="btn col-6 col-md-3 mt-3 px-0 red-bg text-white"
-              >
-                Tue (24/08)>
-              </button>
-              <button
-                type="button"
-                class="btn col-6 col-md-3 mt-3 px-0 gray-bg"
-              >
-                Wed (25/08)
-              </button>
-              <button
-                type="button"
-                class="btn col-6 col-md-3 mt-3 px-0 gray-bg"
-              >
-                Thur (26/08)
-              </button>
-              <button
-                type="button"
-                class="btn col-6 col-md-3 mt-3 px-0 gray-bg"
-              >
-                Fri (27/08)
-              </button>
-            </div>
-          </div>
+        <div aria-label="breadcrumb">
+            <ol class="breadcrumb p-2 m-0 rounded-0 font-12 lt-gray-bg justify-content-end">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Schedule</li>
+            </ol>
         </div>
-      </div>
-      <div class="work-wrap lt-gray-bg container-fluid">
-        <div
-          class="work section-div lt-gray-bg bd-section py-3 mx-auto w-90 border container-fluid"
-        >
-          <div class="in-body mx-auto mx-auto">
-            <h5 class="sp-title font-italic red-clr font-15">
-              Today's Schedule
-            </h5>
-            <h4 class="font-20 lt-blue-clr">
-              The impacct of project Space Trone
-            </h4>
-            <p class="work-para font-14">
-              This will be the first spaceflight for a mission this big. On this
-              day the mission will be explained to the audience. The spacecraft
-              will travel all the way to the destination's surface during this
-              historic attempt. The spacecraft will contact the surface for
-              several seconds then collect a sample, which it will return to
-              Earth in 2023.
-            </p>
-          </div>
+        <div class="schedule-wrap lt-gray-bg container-fluid">
+            <div class="p-3"></div>
+            <div class="schedule section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid">
+                <h2 class="topic-h2">Schedule</h2>
+                <div class="btn-wrap">
+                    <div class="row btn-div py-5">
+                        <button type="button" class="btn col-6 col-md-3 mt-3 px-0 red-bg text-white">
+                            Tue (24/08)>
+                        </button>
+                        <button type="button" class="btn col-6 col-md-3 mt-3 px-0 gray-bg">
+                            Wed (25/08)
+                        </button>
+                        <button type="button" class="btn col-6 col-md-3 mt-3 px-0 gray-bg">
+                            Thur (26/08)
+                        </button>
+                        <button type="button" class="btn col-6 col-md-3 mt-3 px-0 gray-bg">
+                            Fri (27/08)
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="program-wrap lt-gray-bg container-fluid">
-        <div
-          class="program section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid"
-        >
-          <h5 class="sp-title font-italic red-clr font-15">Time Table</h5>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">09:30 - 10:30</div>
-            <div
-              class="col-8 prog-desc font-weight-bold alert alert-primary m-0 p-1"
-            >
-              Registration
+        <div class="work-wrap lt-gray-bg container-fluid">
+            <div class="work section-div lt-gray-bg bd-section py-3 mx-auto w-90 border container-fluid">
+                <div class="in-body mx-auto mx-auto">
+                    <h5 class="sp-title font-italic red-clr font-15">
+                        Today's Schedule
+                    </h5>
+                    <h4 class="font-20 lt-blue-clr">
+                        The impacct of project Space Trone
+                    </h4>
+                    <p class="work-para font-14">
+                        This will be the first spaceflight for a mission this big. On this
+                        day the mission will be explained to the audience. The spacecraft
+                        will travel all the way to the destination's surface during this
+                        historic attempt. The spacecraft will contact the surface for
+                        several seconds then collect a sample, which it will return to
+                        Earth in 2023.
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">10:30 - 11:30</div>
-            <div
-              class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1"
-            >
-              Opening Remarks
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">11:30 - 12:30</div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                Open Speech</i
-              >
-              <p class="font-13">
-                Laying out the program for the four days until the launch
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Mission importance
-                <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                Global Sharing</i
-              >
-              <p class="font-13">
-                Laying out all the goals and mission for this project
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Nadia Nakai <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">12:30 - 13:30</div>
-            <div
-              class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1"
-            >
-              Break
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">13:30 - 14:30</div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                Creative Works</i
-              >
-              <p class="font-13">
-                The important innovations coming along with the project
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Aliko Dangote <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                Open Education</i
-              >
-              <p class="font-13">
-                Educating the audience on the benefits of this project
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Elon Musk <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">14:30 - 15:30</div>
-            <div
-              class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1"
-            >
-              Nadia Nakai' Live Perfomance
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">15:30 - 16:30</div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                The Hardware</i
-              >
-              <p class="font-13">
-                The Breakdown of all the hardware and resources that made the
-                mission possible
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Jack Ma <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-            <div class="col-4 prog-card alert alert-secondary m-0 p-1">
-              <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
-                The Software</i
-              >
-              <p class="font-13">
-                The Breakdown of all the hardware and resources that made the
-                mission possible
-              </p>
-              <p class="font-12 red-clr font-weight-bold">
-                Jeff Bezos <i class="fas fa-check-square lt-blue-clr"></i>
-              </p>
-            </div>
-          </div>
-          <div class="row border py-2">
-            <div class="col-4 prog-time font-13">16:30 - 17:30</div>
-            <div
-              class="col-8 prog-desc font-weight-bold alert alert-success m-0 p-1"
-            >
-              Closing Remarks
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="program-wrap lt-gray-bg container-fluid">
+            <div class="program section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid">
+                <h5 class="sp-title font-italic red-clr font-15">Time Table</h5>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">09:30 - 10:30</div>
+                    <div class="col-8 prog-desc font-weight-bold alert alert-primary m-0 p-1">
+                        Registration
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">10:30 - 11:30</div>
+                    <div class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1">
+                        Opening Remarks
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">11:30 - 12:30</div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            Open Speech</i>
+                        <p class="font-13">
+                            Laying out the program for the four days until the launch
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Mission importance
+                            <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            Global Sharing</i>
+                        <p class="font-13">
+                            Laying out all the goals and mission for this project
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Nadia Nakai <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">12:30 - 13:30</div>
+                    <div class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1">
+                        Break
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">13:30 - 14:30</div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            Creative Works</i>
+                        <p class="font-13">
+                            The important innovations coming along with the project
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Aliko Dangote <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            Open Education</i>
+                        <p class="font-13">
+                            Educating the audience on the benefits of this project
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Elon Musk <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">14:30 - 15:30</div>
+                    <div class="col-8 prog-desc font-weight-bold alert alert-info m-0 p-1">
+                        Nadia Nakai' Live Perfomance
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">15:30 - 16:30</div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            The Hardware</i>
+                        <p class="font-13">
+                            The Breakdown of all the hardware and resources that made the
+                            mission possible
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Jack Ma <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                    <div class="col-4 prog-card alert alert-secondary m-0 p-1">
+                        <i class="fas fa-edit font-13 lt-blue-clr font-weight-bold py-2">
+                            The Software</i>
+                        <p class="font-13">
+                            The Breakdown of all the hardware and resources that made the
+                            mission possible
+                        </p>
+                        <p class="font-12 red-clr font-weight-bold">
+                            Jeff Bezos <i class="fas fa-check-square lt-blue-clr"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row border py-2">
+                    <div class="col-4 prog-time font-13">16:30 - 17:30</div>
+                    <div class="col-8 prog-desc font-weight-bold alert alert-success m-0 p-1">
+                        Closing Remarks
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer gray-clr black-bg container-fluid">
-      <div class="media p-3 row justify-content-center align-items-center">
-        <div class="col-4 ft-img-div">
-          <img
-            src="./images/ft-ogo.png"
-            alt="John Doe"
-            class="mr-3 mt-3 ft-img img-fluid"
-          />
+        <div class="media p-3 row justify-content-center align-items-center">
+            <div class="col-4 ft-img-div">
+                <img src="./images/ft-ogo.png" alt="John Doe" class="mr-3 mt-3 ft-img img-fluid" />
+            </div>
+            <div class="col-8 media-body">
+                <span class="font-12">@2020 designed by link
+                    <a href="http://github.com/bigwizzo">[BigWizzo]</a></span>
+                <h4 class="font-15">Super Space Trone Launch: 26 Aug 2021</h4>
+                <p class="font-12">
+                    The biggest space launch in human history. launching the Super Trone
+                    spacecraft aboard the Centurion rocket from Olivin Flight Facility
+                    in Johannesburg.
+                </p>
+            </div>
         </div>
-        <div class="col-8 media-body">
-          <span class="font-12"
-            >@2020 designed by link
-            <a href="http://github.com/bigwizzo">[BigWizzo]</a></span
-          >
-          <h4 class="font-15">Super Space Trone Launch: 26 Aug 2021</h4>
-          <p class="font-12">
-            biggest space launch in human history. launching the Super Trone
-            spacecraft aboard the Centurion rocket from Olivin Flight Facility
-            in Johannesburg.
-          </p>
-        </div>
-      </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
