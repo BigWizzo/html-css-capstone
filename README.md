@@ -1,76 +1,78 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> One paragraph statement about the project.
+# HTML & CSS Capstone Project: Space Trone Launch Confrence 2021
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+> This project Project is based on an online website for a conference.
+> I built a website for the Space Mission Launch.
 
-## Built With
+# The Project has the following pages
 
-- Major languages
-- Frameworks
-- Technologies used
+    - the Home page, with a menu link to the about page, tickets, and the schedule page
+    - the about page
+    - the tickets page
+    - the schedule page
+
+# Responsive Design with emphasis on
+
+    - mobile: up to 768px
+    - desktop: from 768px
+
+# Built With
+
+    - HTML
+    - CSS
+    - Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://bigwizzo.github.io/html-css-capstone)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+> Browser
+> Text editor of your choice
+> npm has to be installed in your system
+
 ### Setup
 
-### Install
+> `git clone https://github.com/BigWizzo/html-css-capstone.git`
 
 ### Usage
 
+> Open the index.html from your browser.
+
 ### Run tests
 
-### Deployment
+Run `npx html-validator-cli --quiet --file index.html` to run the validator over the `index.html` file.
 
+The `--quiet` will only list `errors`. If you also want to see the warnings use the `--verbose` flag instead.
+As an alternative, you can also install the `html5validator` using `pip`:
 
+```
+pip install --user html5validator
+html5validator index.html
+```
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@bigwizzo](https://github.com/bigwizzo)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/BigWizzo/html-css-capstone/issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
