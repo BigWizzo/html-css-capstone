@@ -9,7 +9,7 @@
 
 ### The Project has the following pages
 
-> the Home page, with a menu link to the about page, tickets, andthe schedule page
+> the Home page, with a menu link to the about page, tickets, and the schedule page
 > the about page
 > the tickets page
 > the schedule page
