@@ -1,0 +1,251 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(https://www.dafont.com/cocogoose.font);
+}
+
+.coco {
+  font-family: cocogoose, sans-serif;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+/* colors here */
+.gray-clr {
+  color: #d3d3d3;
+}
+
+.gray-bg {
+  background: #d3d3d3;
+}
+
+.lt-gray-clr {
+  color: #f3f3f3;
+}
+
+.lt-gray-bg {
+  background: #f3f3f3;
+}
+
+.red-clr {
+  color: #ec5242;
+}
+
+.red-bg {
+  background: #ec5242;
+}
+
+.black-clr {
+  color: #272131;
+}
+
+.black-bg {
+  background: #272131;
+}
+
+.lt-blue-clr {
+  color: #0f4275;
+}
+
+.lt-black-bg {
+  background: #1234565c;
+}
+
+/* fonts here */
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-35 {
+  font-size: 32px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.bd-section {
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+
+/* index here */
+
+/* service section */
+.logo-a {
+  height: 50px;
+}
+
+.my-jumbo {
+  padding: 5rem;
+  min-height: 85vh;
+  background:
+    linear-gradient(to bottom right, #525252ba, #080808d1),
+    url(../images/back5.jpg);
+  background-size: cover;
+}
+
+.jumbo-haf {
+  min-height: 40vh;
+}
+
+.jumbo-content {
+  width: 60%;
+}
+
+.jumbo-para-1 {
+  border-left: 25px solid rgb(236, 82, 66);
+  border-right: 1px solid #ec524261;
+  border-top: 1px solid #ec524261;
+  border-bottom: 1px solid #ec524261;
+}
+
+.topic-h2 {
+  font-size: 22px;
+  padding: 5px 0;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  margin: 0 auto;
+  background: #f3f3f3;
+  color: #ec5242;
+}
+
+.services {
+  background:
+    linear-gradient(to bottom right, #ffffffba, #ffffffd1),
+    url(../images/back3.jpg);
+}
+
+.service-section {
+  padding: 20px;
+  width: 85%;
+}
+
+.service-card {
+  box-shadow: 0 0 3px 1.5px #d3d3d3;
+  background: #272131c4;
+}
+
+.ser-h4 {
+  padding: 10px 22px;
+  margin: 0 auto;
+}
+
+.sp-img-div {
+  height: 105px;
+}
+
+.sp-img {
+  border-radius: 7px;
+}
+
+.media {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.partners {
+  background:
+    linear-gradient(to bottom right, #272131a6, #272131a6),
+    url(../images/back3.jpg);
+}
+
+.footer {
+  border-top: 1px solid #c1c1c1;
+}
+
+.ft-img-div {
+  height: 150px;
+}
+
+/* About page begins here */
+.in-body {
+  width: 70%;
+}
+
+.past-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* schedule page here */
+
+.program {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 767px) {
+  .my-jumbo {
+    padding: 2rem;
+    min-height: 70vh;
+    text-align: center;
+  }
+
+  .jumbo-para-1 {
+    font-size: 18px;
+  }
+
+  .jumbo-content {
+    width: 100%;
+  }
+
+  .jumbo-time {
+    font-size: 20px;
+  }
+
+  .jumbo-moto {
+    font-size: 15px;
+  }
+
+  .display-4 {
+    font-size: 36px;
+  }
+
+  .section-div {
+    width: 100%;
+  }
+
+  .sp-img-div {
+    height: 85px;
+  }
+
+  .pt-div {
+    font-size: 16px;
+  }
+
+  /* about page starts here */
+  .in-body {
+    width: 90%;
+  }
+
+  /* schedule starts here */
+  .program {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

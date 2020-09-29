@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="https://kit.fontawesome.com/c7d73dbfbb.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>HTML and CSS Capstone</title>
+</head>
+
+<body class="coco">
+  <nav class="top-nav d-none d-md-block">
+    <div class="nav-top justify-content-end navbar navbar-expand-sm bg-dark navbar-dark p-0">
+      <ul class="navbar-nav pr-5 font-13">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-facebook-f gray-clr"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-twitter gray-clr"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-github-square gray-clr"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link gray-clr" href="#">English</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="main-nav navbar navbar-expand-md justify-content-md-around bg-light navbar-light sticky-top">
+    <!-- Brand/logo -->
+    <a class="navbar-brand pl-5 font-weight-bolder red-clr logo-a" href="./">
+      <!-- My-Logo -->
+      <img src="./images/logo-nav.png" alt="logo" class="logo-nav h-100" />
+    </a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="row justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+      <!-- Links -->
+      <ul class="navbar-nav pr-5 font-weight-bold">
+        <li class="nav-item">
+          <a class="nav-link" href="./">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./tickets.html">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./schedule.html">Schedule</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main-section container-fluid text-center">
+    <section aria-label="breadcrumb container-fluid">
+      <ol class="breadcrumb p-2 m-0 rounded-0 font-12 lt-gray-bg justify-content-end">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Tickets</li>
+      </ol>
+    </section>
+    <h1 class="display-4 font-weight-bolder lt-gray-bg pb-3 mb-0 red-clr">
+      Get your Ticket
+    </h1>
+    <section class="tickets-wrap lt-gray-bg container-fluid">
+      <div class="ticket section-div lt-gray-bg bd-section pt-3 py-3 mx-auto w-90 border container-fluid">
+        <h2 class="topic-h2">Select Tickets</h2>
+        <div class="step-wrap my-3">
+          <div class="step-div py-2 w-50 mx-auto border sp-img">
+            <span class="step red-clr font-15 font-weight-bold">~ Step 1 :</span>
+            <span class="span-para lt-blue-clr lato font-italic">Select your category and proceed to the checkout
+              page</span>
+          </div>
+        </div>
+        <div class="table-div table-responsive table-hover font-14">
+          <table class="table table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Category</th>
+                <th scope="col">Before 10 August</th>
+                <th scope="col">Before 19 August</th>
+                <th scope="col">After 20 August</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Normal</th>
+                <td class="lt-blue-clr font-weight-bold">$70.00</td>
+                <td class="lt-blue-clr font-weight-bold">$100.00</td>
+                <td class="lt-blue-clr font-weight-bold">$150.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Students</th>
+                <td class="lt-blue-clr font-weight-bold">$30.00</td>
+                <td class="lt-blue-clr font-weight-bold">$50.00</td>
+                <td class="lt-blue-clr font-weight-bold">$80.00</td>
+              </tr>
+              <tr>
+                <th scope="row">VIP</th>
+                <td class="lt-blue-clr font-weight-bold">$200.00</td>
+                <td class="lt-blue-clr font-weight-bold">$300.00</td>
+                <td class="lt-blue-clr font-weight-bold">$500.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- lunch starts here -->
+
+    <section class="lunch-wrap lt-gray-bg container-fluid">
+      <div class="lunch section-div lt-gray-bg bd-section py-3 mx-auto w-90 container-fluid">
+        <h2 class="topic-h2">Select Your Menu</h2>
+        <div class="step-wrap my-3">
+          <div class="step-div py-2 w-50 mx-auto border sp-img">
+            <span class="step red-clr font-15 font-weight-bold">~ Step 2 :</span>
+            <span class="span-para lt-blue-clr lato font-italic">Select you menu from the list given below</span>
+          </div>
+        </div>
+        <div class="row menu-row">
+          <div class="col-12 col-md-6 menu-div table-responsive table-hover lato font-14">
+            <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Breakfast</th>
+                  <th scope="col">Cassarel</th>
+                  <th scope="col">Cracpot</th>
+                  <th scope="col">Rabanadas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Select</th>
+                  <td>
+                    <input class="form-check-input" type="radio" checked />
+                  </td>
+                  <td><input class="form-check-input" type="radio" /></td>
+                  <td><input class="form-check-input" type="radio" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-12 col-md-6 menu-div table-responsive table-hover lato font-14">
+            <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Lunch</th>
+                  <th scope="col">Braai</th>
+                  <th scope="col">Canape</th>
+                  <th scope="col">Kimchi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Select</th>
+                  <td>
+                    <input class="form-check-input" type="radio" checked />
+                  </td>
+                  <td><input class="form-check-input" type="radio" /></td>
+                  <td><input class="form-check-input" type="radio" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <button type="button" class="btn red-bg lt-gray-clr font-weight-bold font-15 d-md-none">
+          Join the Launch
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer gray-clr black-bg container-fluid">
+    <div class="media p-3 row justify-content-center align-items-center">
+      <div class="col-4 ft-img-div">
+        <img src="./images/ft-ogo.png" alt="John Doe" class="mr-3 mt-3 ft-img img-fluid" />
+      </div>
+      <div class="col-8 media-body">
+        <span class="font-12">@2020 designed by link
+          <a href="http://github.com/bigwizzo">[BigWizzo]</a></span>
+        <h4 class="font-15">Super Space Trone Launch: 27 Aug 2021</h4>
+        <p class="lato font-12">The biggest space launch in human history. launching the Super Trone spacecraft aboard
+          the
+          Centurion rocket from
+          Olivin Flight Facility in Johannesburg.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
