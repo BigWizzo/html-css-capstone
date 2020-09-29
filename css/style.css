@@ -1,3 +1,17 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(https://www.dafont.com/cocogoose.font);
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.coco {
+  font-family: cocogoose;
+}
+
+
 /* colors here */
 .gray-clr {
   color: #d3d3d3;
@@ -155,13 +169,9 @@
     url(../images/back3.jpg);
 }
 
-/* .pt-img { */
-
-/* width: 100%; */
-
-/* height: 100%; */
-
-/* } */
+.footer {
+  border-top: 1px solid #c1c1c1;
+}
 
 .ft-img-div {
   height: 150px;
@@ -179,8 +189,11 @@
   transform: translate(-50%, -50%);
 }
 
-.footer {
-  border-top: 1px solid #c1c1c1;
+/* schedule page here */
+
+.program {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* // Medium devices (tablets, 768px and down) */
@@ -191,8 +204,24 @@
     text-align: center;
   }
 
+  .jumbo-para-1 {
+    font-size: 18px;
+  }
+
   .jumbo-content {
     width: 100%;
+  }
+
+  .jumbo-time {
+    font-size: 20px;
+  }
+
+  .jumbo-moto {
+    font-size: 15px;
+  }
+
+  .display-4 {
+    font-size: 36px;
   }
 
   .section-div {
@@ -210,5 +239,11 @@
   /* about page starts here */
   .in-body {
     width: 90%;
+  }
+
+  /* schedule starts here */
+  .program {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
