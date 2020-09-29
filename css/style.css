@@ -8,7 +8,7 @@
 }
 
 .coco {
-  font-family: cocogoose;
+  font-family: 'cocogoose', sans-serif;
 }
 
 
@@ -102,7 +102,8 @@
 .my-jumbo {
   padding: 5rem;
   min-height: 85vh;
-  background: linear-gradient(to bottom right, #525252ba, #080808d1),
+  background:
+    linear-gradient(to bottom right, #525252ba, #080808d1),
     url(../images/back5.jpg);
   background-size: cover;
 }
@@ -133,7 +134,8 @@
 }
 
 .services {
-  background: linear-gradient(to bottom right, #ffffffba, #ffffffd1),
+  background:
+    linear-gradient(to bottom right, #ffffffba, #ffffffd1),
     url(../images/back3.jpg);
 }
 
@@ -165,7 +167,8 @@
 }
 
 .partners {
-  background: linear-gradient(to bottom right, #272131a6, #272131a6),
+  background:
+    linear-gradient(to bottom right, #272131a6, #272131a6),
     url(../images/back3.jpg);
 }
 
