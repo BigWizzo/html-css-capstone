@@ -88,8 +88,7 @@
 .my-jumbo {
   padding: 5rem;
   min-height: 85vh;
-  background:
-    linear-gradient(to bottom right, #525252ba, #080808d1),
+  background: linear-gradient(to bottom right, #525252ba, #080808d1),
     url(../images/back5.jpg);
   background-size: cover;
 }
@@ -120,9 +119,8 @@
 }
 
 .services {
-  background:
-    linear-gradient(to bottom right, #00000040, #00000063),
-    url(../images/back6.jpg);
+  background: linear-gradient(to bottom right, #ffffffba, #ffffffd1),
+    url(../images/back3.jpg);
 }
 
 .service-section {
@@ -132,7 +130,7 @@
 
 .service-card {
   box-shadow: 0 0 3px 1.5px #d3d3d3;
-  background: #272131a6;
+  background: #272131c4;
 }
 
 .ser-h4 {
@@ -153,8 +151,7 @@
 }
 
 .partners {
-  background:
-    linear-gradient(to bottom right, #ffffffba, #ffffffd1),
+  background: linear-gradient(to bottom right, #272131a6, #272131a6),
     url(../images/back3.jpg);
 }
 
@@ -180,6 +177,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.footer {
+  border-top: 1px solid #c1c1c1;
 }
 
 /* // Medium devices (tablets, 768px and down) */
