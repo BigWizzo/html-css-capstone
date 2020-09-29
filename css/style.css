@@ -3,12 +3,12 @@
   src: url(https://www.dafont.com/cocogoose.font);
 }
 
-.lato {
-  font-family: 'Lato', sans-serif;
+.coco {
+  font-family: cocogoose, sans-serif;
 }
 
-.coco {
-  font-family: 'cocogoose', sans-serif;
+.lato {
+  font-family: 'Lato', sans-serif;
 }
 
 
