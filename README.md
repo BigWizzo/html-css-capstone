@@ -2,7 +2,7 @@
 
 # HTML & CSS Capstone Project: Space Trone Launch Confrence 2021
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.jpg)
 
 > This project Project is based on an online website for a conference.
 > I built a website for the Space Mission Launch.
