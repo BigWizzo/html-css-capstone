@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML & CSS Capstone Project: Space Trone Launch Confrence 2021
+# HTML & CSS Capstone Project: Space Trone Launch Conference 2021
 
 ![screenshot](./screenshot.jpg)
 
